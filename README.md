@@ -1,6 +1,7 @@
 If you're reading this, then thanks for downloading!
 
 ======================INTRODUCTION====================
+
 I designed and refined this audio player in the span
 of about 1 to 2 months, and put... 20? 30? I don't
 know how many hours into it. What I DO know is how
@@ -14,6 +15,7 @@ for the audio player that will work on an original
 DMG Gameboy or a Gameboy Pocket.
 
 ======================COMPATIBILITY===================
+
 A quick note before getting on to how to use it:
 this audio player, though GBC compatible, will NOT
 work on a Gameboy Advance. Due to the behavior of the
@@ -25,6 +27,7 @@ it lightly. So far, I know the player works on BGB,
 though not exactly the smoothest.
 
 =======================HOW TO USE=====================
+
 To use the audio player, you must have RGBDS (gameboy
 assembly compiler,) the latest version of Java, 
 Audacity, a text editor, and  some kind of hex editor 
@@ -79,6 +82,7 @@ it, and played on a real Gameboy Color! (Or accurate
 emulator of choice.)
 
 =======================HOW IT WORKS====================
+
 I initially came up with the theoretical concept of the
 audio player back in July 2020, some time after I
 discovered irrlicht's "Gameboy 5th voice" demo and 
@@ -127,6 +131,7 @@ get higher quality audio than previously achieved by
 any other audio demos for the Gameboy.
 
 =================POTENTIAL PLAYBACK FLAWS==============
+
 Even in its probably most refined form, the audio
 player isn't without its flaws. 
 
@@ -151,6 +156,7 @@ as well as an algorithm that chooses the nearest config
 that won't cause any popping to switch to.
 
 ==================DEVELOPMENT QUIRKS===================
+
 The pulse channels have to be initialized in a very
 specific order in order to be able to play back
 PCM audio; otherwise, it'll either be silent, or sound
@@ -177,5 +183,6 @@ after it played back some more audio, the problem
 wasn't as bad.
 
 ==========WHERE CAN I LISTEN TO IT IN ACTION?===========
+
 I made an oscilloscope view video of it in action; go
 watch it here! https://youtu.be/qkmQra0ZPJo
